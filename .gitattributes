@@ -1,0 +1,45 @@
+# =========================================================
+# UNITY YAML MERGING
+# =========================================================
+
+*.meta text eol=lf
+*.cs text diff=csharp
+
+*.shader text
+*.cginc text
+*.hlsl text
+
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+
+# =========================================================
+# WEB FILES
+# =========================================================
+
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# =========================================================
+# IMAGES / BINARIES
+# =========================================================
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.fbx binary
+*.blend binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.mp4 binary

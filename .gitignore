@@ -1,0 +1,98 @@
+# =========================================================
+# UNITY
+# =========================================================
+
+/[Uu]nity-project/[Ll]ibrary/
+/[Uu]nity-project/[Tt]emp/
+/[Uu]nity-project/[Oo]bj/
+/[Uu]nity-project/[Bb]uild/
+/[Uu]nity-project/[Bb]uilds/
+/[Uu]nity-project/[Ll]ogs/
+/[Uu]nity-project/[Mm]emoryCaptures/
+/[Uu]nity-project/[Rr]ecordings/
+/[Uu]nity-project/[Uu]ser[Ss]ettings/
+
+# Asset Store tools
+/[Uu]nity-project/Assets/AssetStoreTools*
+
+# Auto-generated VS/JetBrains files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =========================================================
+# UNITY BUILDS
+# =========================================================
+
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.ipa
+
+# =========================================================
+# WEB / NODE
+# =========================================================
+
+node_modules/
+dist/
+build/
+coverage/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# IDEs
+# =========================================================
+
+.vscode/
+.idea/
+.gradle/
+.consulo/
+.vs/
+
+# =========================================================
+# OS FILES
+# =========================================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================================================
+# ENV FILES
+# =========================================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================================================
+# MISC
+# =========================================================
+
+sysinfo.txt
